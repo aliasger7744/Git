@@ -1,0 +1,30 @@
+How to Create a Repository in Github
+
+If already have project in Github
+Login : git clone https://github.com/Derekvibe/FoodResturant.git
+OR
+Create New Folder
+git init
+
+For Add
+Create File 
+git add filename : For Add FIle
+git commit –m “first commit” : For Commit
+
+git branch : For Branchname
+git remote add origin https://github.com/Derekvibe/FoodResturant.git
+git push origin branchname
+
+For Removed
+git rm newfile.txt : For Commit
+git commit –m “first commit” : For Commit
+git push origin branchname
+
+For Restore in Directory
+git log -- <filename>
+git checkout <commit-hash>^ -- <filename> : no like 90ef898d148250ebadbe73d9d454831009e7bfc7
+
+For Restore in Github
+git add <filename>
+git commit –m “first commit” : For Commit
+git push origin branchname
