@@ -35,6 +35,11 @@ git push origin branchname : if you need to add in github
 For Log
 git log : all log
 git log <file-path> : For Particular File
+
+For Merge Current Repo files
+git pull origin master --allow-unrelated-histories
+git checkout -b new-branch-name origin/master
+
 git show <commit-hash> : View Specific Commit
 git diff <commit-hash-1>..<commit-hash-2> <file-path> : View Differences Between Commits:
 
