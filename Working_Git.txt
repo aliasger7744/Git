@@ -6,6 +6,9 @@ OR
 Create New Folder
 git init
 
+Check Current directory git or not
+git rev-parse --is-inside-work-tree
+
 For Add
 Create File 
 git add filename : For Add FIle
