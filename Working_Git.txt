@@ -5,6 +5,9 @@ Login : git clone https://github.com/xyz/xyz.git
 OR
 Create New Folder
 git init
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+
 
 Check Current directory git or not
 git rev-parse --is-inside-work-tree
